@@ -1,7 +1,6 @@
 .box1 {
   float: left;
   width: 33.333%;
-  border: solid 1px tomato;
   box-sizing: border-box;
 }
 
@@ -37,8 +36,8 @@
 
 @media (max-width: 768px) {
   .box1 {
-    width:100%;
-    margin: 10px;
+    width:90%;
+    margin: 10px auto;
     position: center;
   }
 }
@@ -58,9 +57,29 @@
 @media (max-width: 768px) {
   .sample {
     width: 100%;
-    position: center; } }
+    position: center;
+    text-align:center;
+    } }
 
 
-.button { 
+.button, { 
     text-align: center; 
+}
+
+.sample {
+    width:200px;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding:8px 0 10px;
+    color:#333;
+    border:1px solid #333;
+    border-radius:5px;
+    margin: 0 auto;
+}
+
+.sample0, .sample1 {
+  font-weight:bold
 }
